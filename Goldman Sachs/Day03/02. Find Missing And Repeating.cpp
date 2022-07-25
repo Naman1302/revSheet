@@ -8,7 +8,7 @@ public:
     int *findTwoElement(int *arr, int n) {
         int *ans= new int[2];
 
-        sort(arr,arr+n);
+        //sort(arr,arr+n);
 
         for(int i=0;i<n;i++){
              //go to arr[arr[i]] and make that element of index negative 
